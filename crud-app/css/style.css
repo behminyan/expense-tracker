@@ -1,0 +1,16 @@
+﻿/**
+ * Created by behminyan on 31/7/15.
+ */
+
+button{
+	position: absolute;
+	right: 0;
+}
+
+#address-form{
+	position: relative;
+    margin-top: 50px;
+	border:solid 3px #4db6ac;
+    padding-top: 10px;    
+    padding-bottom: 15px;
+}

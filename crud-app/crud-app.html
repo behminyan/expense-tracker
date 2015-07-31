@@ -1,0 +1,61 @@
+/**
+* Created by behminyan on 31/7/15.
+*/
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<!--script src="../lib/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.js"></script-->
+	<script src="js/crud-app.js"></script>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	<link rel="stylesheet" href="css/materialize.min.css"/>
+</head>
+<body>        
+	<div class = "row container">
+		<form id="address-form" class="col centre-align s12">
+        	<ul>
+				<li>
+					<div class="input-field col s6">
+						<i class="material-icons prefix">account_circle</i>
+						<input type="text" id="txtFname"/>
+						<label for="txtFname" class="active">First Name</label>
+			        </div>
+				</li>
+				<li>
+					<div class="input-field col s6">
+						<input type="text" id="txtLname"/>
+						<label for="txtLname" class="active">Last Name</label>
+				    </div>
+				</li>
+				<li>
+					<div class="input-field col s6">
+						<i class="material-icons prefix">phone</i>
+						<input type="text" id="txtPhone"/>
+						<label for="txtPhone">Phone Number</label>
+				    </div>
+				</li>
+				<li>
+					<div class="input-field col s6">
+						<input type="text" id="txtEmail"/>
+						<label for="txtEmail">Email Address</label>
+				    </div>
+				</li>				
+				<!--li>
+					<input type="submit" value="Save" id="btnSave"/>
+				</li-->
+			</ul>
+				<button class="btn waves-effect right" type="submit" id="btn-save">Save
+					<!--i class="material-icons">send</i-->
+  				</button>
+		</form>
+	</div>
+	<div class="container">
+		<table class="hoverable centered bordered" id="tblList">
+
+		</table>
+	</div>
+</body>
+</html>
